@@ -9,7 +9,7 @@ slice of 3 strings */
 
 
 func main() {
-	// Create a tic-tac-toe game 
+	// Create a tic-tac-toe game ``
 	board := [][]string{
 		[]string{"_", "_", "_"},
 		[]string{"_", "_", "_"},
