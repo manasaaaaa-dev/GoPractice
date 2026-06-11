@@ -13,7 +13,7 @@ func WordCount(s string) map[string]int {
 	// for _, word := range fields {
 	// 	Here range fields means - "go through each element of fields one by one".
 
-    for index, word := range fields {
+    for _, word := range fields {
         counts[word]++
     }
 
