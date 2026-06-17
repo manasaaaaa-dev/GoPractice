@@ -6,7 +6,7 @@ package main
 
 import "fmt"
 
-type IPAddr [4]byte
+type IPAddr [4]byte//array of 4 bytes size
 
 // TODO: Add a "String() string" method to IPAddr.
 
